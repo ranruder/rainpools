@@ -1,0 +1,28 @@
+@rainColor: #31b0e6;
+
+.rainpoolsVis {
+  position: relative;
+  border: 1px solid #eee;
+  padding: 10px;
+  height: 400px;
+  width: 600px;
+
+  .wall {
+    position: absolute;
+    bottom: 0;
+
+    .block {
+      position: absolute;
+      border: 3px solid #666;
+      margin: 1px;
+    }
+    .rain {
+      position: absolute;
+      background: @rainColor;
+      margin: 1px;
+      transition: height 1s;
+    }
+
+  }
+
+}

@@ -1,0 +1,35 @@
+
+@rainColor: #31b0e6;
+
+.rainpools {
+  padding: 10px;
+
+  .tools {
+    margin-bottom: 10px;
+    input {
+      width: 250px;
+      margin-right: 5px;
+    }
+  }
+  .btn {
+    margin-right: 10px;
+    .glyphicon {
+      margin-right: 5px;
+      &.rain {
+        color: @rainColor;
+      }
+    }
+
+    &:hover {
+      background: #ccc;
+    }
+  }
+
+  .result {
+    margin: 10px 0;
+    .total {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
